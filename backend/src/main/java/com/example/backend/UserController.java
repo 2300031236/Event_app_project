@@ -8,7 +8,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:9002")
+@CrossOrigin(origins = {"http://localhost:9002", "http://localhost:9000"})
 public class UserController {
 
     @Autowired
