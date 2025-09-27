@@ -1,9 +1,7 @@
-import axios from 'axios';
+import axios from "axios";
 
-// Create a pre-configured instance of axios
 const api = axios.create({
-  // Point this to your backend's URL and port
-  baseURL: 'http://localhost:9001/api/auth'
+  baseURL: "http://ec2-3-26-23-38.ap-southeast-2.compute.amazonaws.com:8081/api/auth",
 });
 
 export default api;
